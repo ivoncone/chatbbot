@@ -1,24 +1,45 @@
 {
 	"intents": [
 		{"tag": "greetings",
-		 "patterns": ["hello", "hey", "hi", "good morning", "good day", "how are you?", "how you doing"],
-		 "responses": ["hello!", "hey!", "what can i do for you?", "how may i help you"]
+		 "patterns": [
+		 	"hello", "hey", "hi", "good morning", "good day", "how are you?", "how you doing"
+		 ],
+		 "responses": [
+		 	"hello!", "hey!", "what can i do for you?", "how may i help you"
+		 ]
 		},
 		{"tag": "goodbye",
-		 "patterns": ["have a nice day", "see you", "i am leaving", "good night", "good bye", "cia", "bye"],
-		 "responses": ["sad to see you leaving!", "talk to you later!", "goodbye"]
+		 "patterns": [
+		 	"have a nice day", "see you", "i am leaving", "good night", "good bye", "ciao", "bye"
+		 ],
+		 "responses": [
+		 	"sad to see you leaving!", "talk to you later!", "goodbye"
+		 ]
 		},
 		{"tag": "name",
-		 "patterns": ["what's your name", "how should i call you"],
-		 "responses": ["my name is edgar", "hello i'm edgar", "nice to meet you i'm edgar"],
+		 "patterns": [
+		 	"what's your name", "how should i call you"
+		 ],
+		 "responses": [
+		 	"my name is edgar", "hello i'm edgar", "nice to meet you i'm edgar"
+		 ]
 		},
 		{"tag": "hours",
-		 "patterns": ["when are you open?", "what are your working hours", "hi"],
-		 "responses": ["monday - friday from 7 am to 5pm"]
+		 "patterns": [
+		 	"when are you open?", "what are your working hours", "hi"
+		 ],
+		 "responses": [
+		 	"monday to friday from 7 am to 5pm"
+		 ]
 		},
 		{"tag": "stock",
-		 "patterns": ["do you have children size", "what colours do you have?"],
-		 "responses": ["no children clothing", "green, purple, pink, yellow, blue, light blue, dark blue, white, black"]}
+		 "patterns": [
+		 	"do you have children size", "what colours do you have?"
+		 ],
+		 "responses": [
+		 	"no children clothing", "green"
+		]
+		}
 
 
 ]}

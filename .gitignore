@@ -4,3 +4,7 @@ env
 env/
 venv
 *.pyc
+chatbot_model.h5
+chatbot_model.model/
+classes.pkl
+words.pkl
